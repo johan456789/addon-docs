@@ -133,7 +133,7 @@ def on_webview_will_set_content(web_content: WebContent, context) -> None:
     web_content.css.append(f"/_addons/{addon_package}/web/my-addon.css")
     web_content.js.append(f"/_addons/{addon_package}/web/my-addon.js")
 ```
-Note that '/' will also match the os specific path separator.
+Note that '/' will also match the OS-specific path separator.
 
 
 

@@ -6,7 +6,7 @@ your life considerably easier.
 
 ## PyCharm setup
 
-The free community edition of PyCharm has good out of the box support
+The free community edition of PyCharm has good out-of-the-box support
 for Python: <https://www.jetbrains.com/pycharm/>. You can also use other
 editors like Visual Studio Code, but we find PyCharm gives the best results.
 
@@ -19,12 +19,12 @@ To get started with your first add-on:
 
 - Open PyCharm and create a new project.
 
-- Right click/ctrl+click on your project on the left and create a new
+- Right-click/ctrl+click on your project on the left and create a new
   Python package called "myaddon"
 
 Now you’ll need to fetch Anki’s bundled source code so you can get type
 completion. As of Anki 2.1.24, these are available on PyPI. **You will need to
-be using a 64 bit version of Python, and your Python version must match a
+be using a 64-bit version of Python, and your Python version must match a
 version the Anki version you are fetching supports.** To install Anki via
 PyCharm, click on Python Console in the bottom left and type the following in:
 
